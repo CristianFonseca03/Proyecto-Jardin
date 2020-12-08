@@ -172,10 +172,11 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		color: #402059
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #402059;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -1833,9 +1834,9 @@ input, select, textarea {
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		border-color: rgba(0, 0, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #402059 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -1866,7 +1867,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #ffffff;
+			background: #402059;
 			border-radius: 3em;
 			content: '';
 			height: 100%;
@@ -1914,7 +1915,8 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ffffff;
+			background-color: #402059;
+
 			color: #312450 !important;
 		}
 
@@ -3215,6 +3217,7 @@ input, select, textarea {
 
 				.wrapper > .inner {
 					padding: 4em 4em 2em 4em ;
+
 				}
 
 			}
@@ -3223,6 +3226,7 @@ input, select, textarea {
 
 				.wrapper > .inner {
 					width: 100%;
+
 				}
 
 			}
@@ -3231,6 +3235,7 @@ input, select, textarea {
 
 				.wrapper > .inner {
 					padding: 3em 2em 1em 2em ;
+
 				}
 
 			}
@@ -3364,6 +3369,13 @@ input, select, textarea {
 		}
 
 /* Header */
+.home {
+  background-image: url('images/fondo.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 
 	#header {
 		display: -moz-flex;
@@ -3872,9 +3884,10 @@ input, select, textarea {
 
 /* Intro */
 
+
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("images/fondo.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
