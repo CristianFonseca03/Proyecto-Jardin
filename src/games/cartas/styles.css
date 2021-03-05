@@ -12,3 +12,12 @@
     width: 200px;
     cursor: pointer;
 }
+
+.score-text {
+    color: white;
+}
+
+.animal-card-text {
+    color: white;
+    font-size: 30px;
+}
