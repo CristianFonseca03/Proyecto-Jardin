@@ -106,79 +106,81 @@ let allAnimals = [{
         media: 'Gallina',
         type: 'text'
     },
-}, {
-    id: 10, image: {
-        id: 19,
-        parentId: 10,
-        media: '../../images/animales/hipopotamo.png',
-        type: 'image'
-    }, text: {
-        id: 20,
-        parentId: 10,
-        media: 'Hipopotamo',
-        type: 'text'
-    },
-}, {
-    id: 11, image: {
-        id: 21,
-        parentId: 11,
-        media: '../../images/animales/leon.png',
-        type: 'image'
-    }, text: {
-        id: 22,
-        parentId: 11,
-        media: 'Leon',
-        type: 'text'
-    },
-}, {
-    id: 12, image: {
-        id: 23,
-        parentId: 12,
-        media: '../../images/animales/leopardo.png',
-        type: 'image'
-    }, text: {
-        id: 24,
-        parentId: 12,
-        media: 'Leopardo',
-        type: 'text'
-    },
-}, {
-    id: 13, image: {
-        id: 25,
-        parentId: 13,
-        media: '../../images/animales/loro-2.png',
-        type: 'image'
-    }, text: {
-        id: 26,
-        parentId: 13,
-        media: 'Loro',
-        type: 'text'
-    },
-}, {
-    id: 14, image: {
-        id: 27,
-        parentId: 14,
-        media: '../../images/animales/oso-panda.png',
-        type: 'image'
-    }, text: {
-        id: 28,
-        parentId: 14,
-        media: 'Oso\nPanda',
-        type: 'text'
-    },
-}, {
-    id: 15, image: {
-        id: 29,
-        parentId: 15,
-        media: '../../images/animales/oveja.png',
-        type: 'image'
-    }, text: {
-        id: 30,
-        parentId: 15,
-        media: 'Oveja',
-        type: 'text'
-    },
-}]
+},
+//     {
+//     id: 10, image: {
+//         id: 19,
+//         parentId: 10,
+//         media: '../../images/animales/hipopotamo.png',
+//         type: 'image'
+//     }, text: {
+//         id: 20,
+//         parentId: 10,
+//         media: 'Hipopotamo',
+//         type: 'text'
+//     },
+// }, {
+//     id: 11, image: {
+//         id: 21,
+//         parentId: 11,
+//         media: '../../images/animales/leon.png',
+//         type: 'image'
+//     }, text: {
+//         id: 22,
+//         parentId: 11,
+//         media: 'Leon',
+//         type: 'text'
+//     },
+// }, {
+//     id: 12, image: {
+//         id: 23,
+//         parentId: 12,
+//         media: '../../images/animales/leopardo.png',
+//         type: 'image'
+//     }, text: {
+//         id: 24,
+//         parentId: 12,
+//         media: 'Leopardo',
+//         type: 'text'
+//     },
+// }, {
+//     id: 13, image: {
+//         id: 25,
+//         parentId: 13,
+//         media: '../../images/animales/loro-2.png',
+//         type: 'image'
+//     }, text: {
+//         id: 26,
+//         parentId: 13,
+//         media: 'Loro',
+//         type: 'text'
+//     },
+// }, {
+//     id: 14, image: {
+//         id: 27,
+//         parentId: 14,
+//         media: '../../images/animales/oso-panda.png',
+//         type: 'image'
+//     }, text: {
+//         id: 28,
+//         parentId: 14,
+//         media: 'Oso\nPanda',
+//         type: 'text'
+//     },
+// }, {
+//     id: 15, image: {
+//         id: 29,
+//         parentId: 15,
+//         media: '../../images/animales/oveja.png',
+//         type: 'image'
+//     }, text: {
+//         id: 30,
+//         parentId: 15,
+//         media: 'Oveja',
+//         type: 'text'
+//     },
+// }
+]
 let animals = []
 let cache = []
 let score = 0
@@ -199,7 +201,7 @@ $(document).ready(() => {
 })
 
 const refreshScore = () => {
-    $('#score').text(`Score ${score}`)
+    $('#score').text(`Puntaje ${score}`)
 }
 
 const createCards = (animals) => {
