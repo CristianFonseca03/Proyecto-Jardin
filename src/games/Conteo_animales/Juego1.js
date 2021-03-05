@@ -13,12 +13,12 @@ function Jugar() {
 
 
 
-    alert(RandomNumero);
+    // alert(RandomNumero);
     let animales = ["caballo.png", "cabra.png", "canguro.png", "caracol.png", "castor.png", "cerdo.png", "cocodrilo.png", "conejo.png", "gallina.png", "gallo.png", "hipopotamo.png"
         , "hipopotamo-2.png", "hipopotamo-3.png", "insecto.png", "insecto-2.png", "leon.png", "leopardo.png", "leopardo-2.png", "loro-2.png", "loro-3.png", "oso-panda.png", "oveja.png"
         , "pato.png", "pato-2.png", "pavo.png", "perro.png", "perro-2.png", "tortuga.png", "tortuga-2.png", "tortuga-3.png", "tucan.png", "zorro.png"];
 
-    alert(RandomAnimal);
+    // alert(RandomAnimal);
 
 
     var tabla = document.getElementById('TablaJuego');
