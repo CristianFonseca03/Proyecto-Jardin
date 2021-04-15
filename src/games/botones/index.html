@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="../../assets/css/main.css" />
     <link rel="stylesheet" href="../../assets/css/bootstrap.min.css" />
     <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" href="script.js" />
     <link rel="stylesheet" href="styles.css"/>
 
 </head>
-<body class="is-preload">
+<body class="is-preload" onload="Cambio()">
 
   <!-- Header -->
     <header id="header">
@@ -31,22 +32,22 @@
           <div class="container">
               <div class="row">
                 <div class="col-4 text-center">
-                  <img src="../../images/animales/gallo.png" alt="" width="150px" id="animal1">
+                  <div class="" id="img1"></div>
                 </div>
                 <div class="col-4 text-center">
-                  <img src="../../images/animales/perro-2.png" alt="" width="150px" id="animal2">
+                  <div class="" id="img2"></div>
                 </div>
                 <div class="col-4 text-center">
-                  <img src="../../images/animales/canguro.png" alt="" width="150px" id="animal3">
+                  <div class="" id="img3"></div>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-8 text-center">
-                  <h1>Da click <h1 id="animal"></h1> </h1>
+                  <h1>Da click <h1 id="Txtanimal"></h1> </h1>
                 </div>
                 <div class="col-4" style="font-size: 9px;">
-                  <span class="switch">
+                  <span class="switch" id="switchON" onchange="Cambio()" value="1">
                   <span class="switch-border1">
                   <span class="switch-border2">
                     <input id="switch1" type="checkbox" checked />
