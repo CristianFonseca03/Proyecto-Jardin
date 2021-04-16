@@ -1,5 +1,8 @@
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
-function Cambio(){
+async function Cambio(){
   var RandomNumero = Math.floor(Math.random() * (10 - 1)) + 1;
   var RandomAnimal1 = Math.floor(Math.random() * (32 - 0)) + 0;
   var RandomAnimal2 = Math.floor(Math.random() * (32 - 0)) + 0;
@@ -62,10 +65,17 @@ function Cambio(){
     }
 
   }else{
+    await sleep(300);
     //apagado
     cambio = document.getElementById('switchOff');
     //alert(cambio);
     cambio.id="switchON";
+    var check = document.getElementById('switch1');
+    //check.click();
+    check.checked=true;
+    Cambio();
+
+
   }
 
 
