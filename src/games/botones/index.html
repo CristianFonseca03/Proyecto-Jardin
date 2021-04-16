@@ -1,32 +1,52 @@
 <!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Botones</title>
-    <link rel="stylesheet" href="../../assets/css/main.css" />
-    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css" />
-    <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
     <link rel="stylesheet" href="script.js" />
     <link rel="stylesheet" href="styles.css"/>
 
 </head>
 <body class="is-preload" onload="Cambio()">
 
-  <!-- Header -->
-    <header id="header">
-      <a href="index.html" class="title">Jardin Generaciones de Paz</a>
-      <nav>
-        <ul>
-          <li><a href="">Juegos</a></li>
-        </ul>
-      </nav>
-    </header>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand">Logo</a>
+      <div class="d-flex">
+        <button type="button" class="btn btn-outline-primary mx-2">Inicio</button>
+        <div class="dropdown">
+          <button class="btn btn-outline-primary dropdown-toggle mx-2" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+            Juegos
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
 
   <!-- Wrapper -->
     <div id="wrapper">
 
       <!-- Main -->
+
+
+    </div>
+
+
+    <div class="container">
+      <div class="banner-vertical p-3">
+        <h1 class="section-tittle">Juego Ruleta, sube y baja la palanca para cambiar a los animales</h1>
+        <br>
         <section id="main" class="wrapper">
           <br>
           <div class="container">
@@ -86,27 +106,14 @@
           </div>
         </section>
 
-    </div>
-
-  <!-- Footer -->
-    <footer id="footer" class="wrapper alt">
-      <div class="inner">
-        <ul class="menu">
-          <li>&copy; 2021, Todos los derechos reserados.</li><li>Diseñado: <a >Jardin Generaciones de Paz</a></li>
-        </ul>
       </div>
-    </footer>
+
+    </div>
 
 
 <script src="script.js"></script>
 
-<!-- Scripts -->
-  <script src="../../assets/js/jquery.min.js"></script>
-  <script src="../../assets/js/jquery.scrollex.min.js"></script>
-  <script src="../../assets/js/jquery.scrolly.min.js"></script>
-  <script src="../../assets/js/browser.min.js"></script>
-  <script src="../../assets/js/breakpoints.min.js"></script>
-  <script src="../../assets/js/util.js"></script>
-  <script src="../../assets/js/main.js"></script>
+<script src="../../assets/js/bootstrap.min.js"></script>
+
 </body>
 </html>
