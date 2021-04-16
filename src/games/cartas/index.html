@@ -1,42 +1,68 @@
-<!DOCTYPE HTML>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Generic - Hyperspace by HTML5 UP</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="../../assets/css/main.css"/>
-    <noscript>
-        <link rel="stylesheet" href="../../assets/css/noscript.css"/>
-    </noscript>
-    <link rel="stylesheet" href="styles.css"/>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Game</title>
 </head>
-<body class="is-preload">
-<!-- Header -->
-<header id="header">
-    <a href="index.html" class="title">Buscar parejas</a>
-    <nav>
-        <ul>
-            <li><a href="../../index.html">Inicio</a></li>
-        </ul>
-    </nav>
-</header>
-<!-- Wrapper -->
-<div id="wrapper">
-    <div class="container d-flex flex-column">
-        <h1 id="score" class="text-center score-text"></h1>
-        <div class="d-flex flex-row flex-wrap" id="cards-container">
+<body>
+<nav class="navbar navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand">Logo</a>
+        <div class="d-flex">
+            <button type="button" class="btn btn-outline-primary mx-2">Inicio</button>
+            <div class="dropdown">
+                <button class="btn btn-outline-primary dropdown-toggle mx-2" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                    Juegos
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container-flex px-5">
+    <div class="banner-vertical p-3">
+        <h1 class="section-tittle">Cartas</h1>
+        <div class="d-flex flex-column align-items-center">
+            <h1 id="score" class="score-text"></h1>
+            <div class="d-flex flex-wrap justify-content-around" id="cards-container">
+            </div>
         </div>
     </div>
 </div>
-<!-- Scripts -->
+<!-- Modal -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../assets/js/bootstrap.min.js"></script>
 <script src="../../assets/js/jquery.min.js"></script>
-<script src="../../assets/js/jquery.scrollex.min.js"></script>
-<script src="../../assets/js/jquery.scrolly.min.js"></script>
-<script src="../../assets/js/browser.min.js"></script>
-<script src="../../assets/js/breakpoints.min.js"></script>
-<script src="../../assets/js/util.js"></script>
-<script src="../../assets/js/main.js"></script>
 <script src="../../assets/js/jquery.flip.min.js"></script>
 <script src="script.js"></script>
 </body>
