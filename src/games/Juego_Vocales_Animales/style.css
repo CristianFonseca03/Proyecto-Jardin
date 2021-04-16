@@ -14,6 +14,14 @@
 	margin:10px;
 	border:1px solid #999999;
 }
+.banner-vertical2 {
+    background-color: yellowgreen;
+    background-image: linear-gradient(135deg, #fff 50%, transparent 50%), linear-gradient(225deg, #fff 50%, transparent 50%), linear-gradient(45deg, #fff 50%, transparent 50%), linear-gradient(-45deg, #fff 50%, transparent 50%);
+    background-position: top left, top left, bottom left, bottom left;
+    background-size: 12px 12px;
+    background-repeat: repeat-x;
+		height: 1200px;
+}
 
 #cajaimagenes > img
 {
@@ -39,14 +47,14 @@
     border-radius:150px;
     align-items: center;
   }
-  
+
   .imgRedondaBurbuja {
     width:80px;
     height:38px;
     border-radius:100px;
     align-items: center;
   }
-  
+
   .CuerpoLogin {
     justify-content:center;
     text-align: center;
@@ -81,7 +89,7 @@
 
 
 ol, ul {
-	list-style: none;  
+	list-style: none;
 }
 
 ol {
@@ -133,12 +141,12 @@ ul {
         margin-left: -1em;
         padding-left: 0;
       }
-    
+
         ul.actions li {
           padding: 0 0 0 1em;
           vertical-align: middle;
         }
-    
+
         ul.actions.special {
           -moz-justify-content: center;
           -webkit-justify-content: center;
@@ -147,11 +155,11 @@ ul {
           width: 100%;
           margin-left: 0;
         }
-    
+
           ul.actions.special li:first-child {
             padding-left: 0;
           }
-    
+
         ul.actions.stacked {
           -moz-flex-direction: column;
           -webkit-flex-direction: column;
@@ -159,19 +167,19 @@ ul {
           flex-direction: column;
           margin-left: 0;
         }
-    
+
           ul.actions.stacked li {
             padding: 1.3em 0 0 0;
           }
-    
+
             ul.actions.stacked li:first-child {
               padding-top: 0;
             }
-    
+
         ul.actions.fit {
           width: calc(100% + 1em);
         }
-    
+
           ul.actions.fit li {
             -moz-flex-grow: 1;
             -webkit-flex-grow: 1;
@@ -183,11 +191,11 @@ ul {
             flex-shrink: 1;
             width: 100%;
           }
-    
+
             ul.actions.fit li > * {
               width: 100%;
             }
-    
+
           ul.actions.fit.stacked {
             width: 100%;
           }
@@ -215,7 +223,7 @@ ul {
 
 .score{
 
-	
+
 	color: white;
 
 
