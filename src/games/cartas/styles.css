@@ -1,10 +1,11 @@
 .animal-card-front {
-    background-image: url("images/back-card-image.jpg");
-    background-size: 200px 281px;
+    background-color: white;
+    border: solid 8px green;
 }
 
 .animal-card-back {
     background-color: white;
+    border: solid 8px green;
 }
 
 .animal-card {
@@ -15,6 +16,11 @@
 
 .animal-image{
     max-width: 180px;
+}
+
+.icon-image{
+    width: 150px;
+    height: 150px;
 }
 
 .score-text {

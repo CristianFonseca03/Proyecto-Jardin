@@ -201,7 +201,7 @@ $(document).ready(() => {
 })
 
 const refreshScore = () => {
-    $('#score').text(`Animales encontrados: ${score}/${animals.length / 2}`)
+    $('#score').text(`animales encontrados: ${score}/${animals.length / 2}`)
 }
 
 const createCards = (animals) => {
@@ -213,7 +213,8 @@ const createCards = (animals) => {
 
 const imageCard = (animal) => {
     return `<div id="${animal.id}" class="animal-card m-2" onclick="handleClickCard(this)">
-            <div class="front animal-card-front">
+            <div class="front animal-card-front d-flex flex-column justify-content-center align-items-center">
+                <img src="../../images/escudo-1.ico" class="img-fluid icon-image"  alt="icon">
             </div>
             <div class="back animal-card-back d-flex flex-row justify-content-center">
                 <img src="${animal.media}" class="img-fluid animal-image"  alt="${animal.id}">
@@ -223,10 +224,11 @@ const imageCard = (animal) => {
 
 const textCard = (animal) => {
     return `<div id="${animal.id}" class="animal-card m-2" onclick="handleClickCard(this)">
-            <div class="front animal-card-front">
+            <div class="front animal-card-front d-flex flex-column justify-content-center align-items-center">
+                <img src="../../images/escudo-1.ico" class="img-fluid icon-image"  alt="icon">
             </div>
             <div class="back animal-card-back d-flex flex-column justify-content-center">
-                <h1 class="text-center animal-card-text">${animal.media}</h1>
+                <h1 class="text-center animal-card-text">${animal.media.toLowerCase()}</h1>
             </div>
         </div>`
 }
