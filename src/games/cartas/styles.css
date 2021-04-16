@@ -1,23 +1,33 @@
 .animal-card-front {
-    border: 4px solid #1C6EA4;
-    background-color: #953d75;
+    background-image: url("images/back-card-image.jpg");
+    background-size: 200px 281px;
 }
 
 .animal-card-back {
-    border: 4px solid #1C6EA4;
+    background-color: white;
 }
 
 .animal-card {
-    height: 200px;
+    height: 281px;
     width: 200px;
     cursor: pointer;
 }
 
+.animal-image{
+    max-width: 180px;
+}
+
 .score-text {
     color: white;
+    font-family: "Comic Sans MS";
 }
 
 .animal-card-text {
-    color: white;
+    color: black;
     font-size: 30px;
+    font-family: "Comic Sans MS";
+}
+
+.test{
+    background-color: #0a53be;
 }

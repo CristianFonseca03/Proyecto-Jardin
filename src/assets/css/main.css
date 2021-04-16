@@ -3,6 +3,11 @@
     src: url(../fonts/Playtime.otf);
 }
 
+@font-face {
+    font-family: "Comic Sans MS";
+    src: url(../fonts/comicz.ttf);
+}
+
 body{
     width: 100%;
     height: 100%;
